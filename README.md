@@ -1,1 +1,1 @@
-#This code is the landing page of jonathandequeker.be
+# This code is the landing page of jonathandequeker.be
