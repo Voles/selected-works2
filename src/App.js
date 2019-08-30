@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import './App.scss';
+import ResponsiveImage from './components/ResponsiveImage/ResponsiveImage';
 
 ReactGA.initialize('UA-56321552-1'); // Here we should use our GA id
 
@@ -27,7 +28,9 @@ class App extends Component {
             BIC	KREDBEBB
           </p>
         </div>
-        <div className="App-image"></div>
+        <div className="App-image">
+          <ResponsiveImage projectName="naert" imageName="render-bathroom" alt="render bathroom" title=""/>
+        </div>
       </div>
     );
   }
