@@ -42,7 +42,7 @@ class ResponsiveImage extends Component {
                /responsive-images/${projectName}/${imageName}-tiny_@1x.jpg 145w
              `}
            sizes="
-              (min-width: 768px) calc(50vw),
+              (min-width: 768px) calc(70vw),
               calc(100vw)
              "
            alt={alt} title={title}

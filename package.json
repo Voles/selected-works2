@@ -1,13 +1,20 @@
 {
   "name": "selected-works2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "http://jonathandequeker.be",
+  "homepage": "https://jonathandequeker.be",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "npm": "^6.13.7",
+    "popper.js": "^1.16.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.8.6",
     "react-ga": "^2.6.0",
+    "react-responsive-carousel": "^3.1.51",
     "react-scripts": "^3.0.1",
     "typescript": "^3.5.2"
   },

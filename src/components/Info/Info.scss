@@ -1,0 +1,27 @@
+.App-Info {
+
+  h1, p {
+    padding: 0 1em;
+    margin-bottom: 1em;
+  }
+
+  a {
+    color: #333333;
+    &:hover {
+      color: #666;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .App-Info {
+
+    width: 30vw;
+    height: auto;
+    margin: auto 0;
+
+  }
+
+}
