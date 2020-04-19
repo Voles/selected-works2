@@ -11,6 +11,7 @@ import './index.scss';
 
 const Info = lazy(() => import('./components/Info/Info'));
 const Splash = lazy(() => import('./components/Splash/Splash'));
+const Landing = lazy(() => import('./containers/Landing/Landing'));
 
 render(
   <div className="App">
