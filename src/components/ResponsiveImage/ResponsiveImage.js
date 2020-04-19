@@ -23,10 +23,10 @@ class ResponsiveImage extends Component {
   }
 
   render() {
-    const { projectName, imageName, alt, title } = this.props;
+    const { projectName, imageName, alt, title, className } = this.props;
     const { loaded } = this.state;
 
-    const classNames = classnames('ResponsiveImage', { 'loaded': loaded });
+    const classNames = classnames('ResponsiveImage', { 'loaded': loaded }, className);
 
     return (
       <img className={classNames}

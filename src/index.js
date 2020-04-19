@@ -11,7 +11,8 @@ import './index.scss';
 
 const Info = lazy(() => import('./components/Info/Info'));
 const Splash = lazy(() => import('./components/Splash/Splash'));
-const Landing = lazy(() => import('./containers/Landing/Landing'));
+const LandingStorage = lazy(() => import('./containers/Landing/LandingStorage'));
+const LandingMeasure = lazy(() => import('./containers/Landing/LandingMeasure'));
 
 render(
   <div className="App">
@@ -25,7 +26,8 @@ render(
                     <Info />
                     <Splash />
                   </Route>
-                  <Route exact path='/landing' component={Landing} />
+                  <Route exact path='/storage' component={LandingStorage} />
+                  <Route exact path='/measure' component={LandingMeasure} />
                 </Switch>
             )}
           />
