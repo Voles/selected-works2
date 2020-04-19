@@ -16,7 +16,7 @@ const Landing = lazy(() => import('./containers/Landing/Landing'));
 render(
   <div className="App">
     <Router>
-      <Analytics id="UA-101955661-1" debug>
+      <Analytics id="UA-56321552-1" debug>
         <Suspense fallback={<div className="Loading">Loading...</div>}>
           <Route
             render={({ location }) => (
