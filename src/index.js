@@ -4,35 +4,35 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
-import Analytics from 'react-router-ga';
+import TagManager from 'react-gtm-module';
 import { render } from 'react-snapshot';
 
 import './index.scss';
 
-const Info = lazy(() => import('./components/Info/Info'));
-const Splash = lazy(() => import('./components/Splash/Splash'));
+const About = lazy(() => import('./containers/About/About'));
 const LandingStorage = lazy(() => import('./containers/Landing/LandingStorage'));
 const LandingMeasure = lazy(() => import('./containers/Landing/LandingMeasure'));
+
+const tagManagerArgs = {
+    gtmId: 'GTM-WBCVHDH'
+}
+
+TagManager.initialize(tagManagerArgs);
 
 render(
   <div className="App">
     <Router>
-      <Analytics id="UA-56321552-1" debug>
         <Suspense fallback={<div className="Loading">Loading...</div>}>
           <Route
             render={({ location }) => (
                 <Switch location={location}>
-                  <Route exact path='/'>
-                    <Info />
-                    <Splash />
-                  </Route>
+                  <Route exact path='/' component={About} />
                   <Route exact path='/storage' component={LandingStorage} />
                   <Route exact path='/measure' component={LandingMeasure} />
                 </Switch>
             )}
           />
         </Suspense>
-      </Analytics>
     </Router>
   </div>,
   document.getElementById('root')
