@@ -18,6 +18,12 @@ class Splash extends Component {
           <Carousel.Item>
             <ResponsiveImage projectName="atmosphere" imageName="coffee-and-lions" alt="Photo of several objects staged in a pleasing composition" title=""/>
           </Carousel.Item>
+          <Carousel.Item>
+            <ResponsiveImage projectName="vr" imageName="walhain" alt="Wireframe view of 3D building model of two residential buildings" title=""/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <ResponsiveImage projectName="vr" imageName="sauvenieres" alt="Isometric view of 3D modelling project for a virtual reality experience" title=""/>
+          </Carousel.Item>
         </Carousel>
       </div>
     );

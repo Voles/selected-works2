@@ -14,12 +14,11 @@ class Info extends Component {
         <p>
           <a itemProp="email" href="mailto:jonathan.dequeker@gmail.com">jonathan.dequeker@gmail.com</a><br />
           <a itemProp="telephone" href="tel:+32 495 647823">+32 495 647823</a><br />
-          <a itemProp="url" href="https://www.linkedin.com/in/jonathandequeker/" target="_blank">LinkedIn</a>
+          <a itemProp="url" href="https://www.linkedin.com/in/jonathandequeker/" target="_blank" rel="noreferrer">LinkedIn</a>
         </p>
         <p>
           BTW BE0650.878.215<br />
-          IBAN	BE88 7310 4131 8941<br />
-          BIC	KREDBEBB
+          IBAN	BE88 7310 4131 8941
         </p>
       </div>
     );
