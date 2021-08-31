@@ -7,7 +7,7 @@ class Info extends Component {
       <div className="Info" itemScope itemType="http://schema.org/Organization">
         <h1 itemProp="legalName">Jonathan Dequeker</h1>
         <p className="intro" itemProp="slogan">
-          I am a Belgian Interior Architect.<br />
+          I am a Belgian interior architect and furniture maker.<br />
           Focussed on imagining new possibilities for a variety of spaces and managing the building process.
         </p>
 

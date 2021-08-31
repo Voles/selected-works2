@@ -24,6 +24,9 @@ class Splash extends Component {
           <Carousel.Item>
             <ResponsiveImage projectName="vr" imageName="sauvenieres" alt="Isometric view of 3D modelling project for a virtual reality experience" title=""/>
           </Carousel.Item>
+          <Carousel.Item>
+            <ResponsiveImage projectName="furniture" imageName="bedside-table-kuroko" alt="A single leg bedside table in oak veneer and white laminate." title=""/>
+          </Carousel.Item>
         </Carousel>
       </div>
     );
