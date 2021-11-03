@@ -12,7 +12,7 @@ class Info extends Component {
         </p>
 
         <p>
-          <a itemProp="email" href="mailto:jonathan.dequeker@gmail.com">jonathan.dequeker@gmail.com</a><br />
+          <a itemProp="email" href="mailto:hello@jonathandequeker.be">jonathan.dequeker@gmail.com</a><br />
           <a itemProp="telephone" href="tel:+32 495 647823">+32 495 647823</a><br />
           <a itemProp="url" href="https://www.linkedin.com/in/jonathandequeker/" target="_blank" rel="noreferrer">LinkedIn</a>
         </p>
